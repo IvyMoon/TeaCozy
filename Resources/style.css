@@ -1,0 +1,226 @@
+body {
+  margin: 0 auto;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  position: relative;
+}
+
+header {
+  top: 0;
+  display: flex;
+  position: fixed;
+  height: 69px;
+  z-index: 5;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background: black;
+}
+
+a {
+  color: seashell;
+}
+
+h2, h4 {
+  padding: 0px;
+  margin: 12px;
+}
+
+.logo {
+  display: flex;
+  margin-left: 10px;
+  flex: 1;
+}
+
+.logo img {
+  height: 50px;
+  width: 167px;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#mission {
+  top: 20px;
+  position: relative;
+  margin: 0 auto;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Resources/Images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1350px 900px;
+}
+
+.main {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  padding: 0;
+
+}
+
+.content {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  line-height: 1.75em;
+  text-align: center;
+}
+
+#tea-month {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+}
+
+.berry-blitz, .spiced-rum, .seasonal-donuts, .myrtle-ave, .bedford-bizarre {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-align: center;
+}
+
+.berry-blitz span, .spiced-rum span, .seasonal-donuts span, .myrtle-ave span,
+.bedford-bizarre span {
+  padding: 5px;
+}
+
+.berry-blitz img, .spiced-rum img, .seasonal-donuts img, .myrtle-ave img,
+.bedford-bizarre img {
+  height: 200px;
+  width: 300px;
+  padding: 13px 16px;
+}
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding-top: 500px;
+  padding-bottom: -100px;
+  height: 500px;
+  background-image: url("../Resources/Images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1351px 895px;
+  margin-bottom: -1690px; /* Pushes the bottom margin up to match picture size */
+}
+
+#locations h2 {
+  position: relative;
+  bottom: 410px;
+}
+
+.places {
+  display: flex;
+  position: relative;
+  bottom: 425px;
+  width: 100%;
+  justify-content: center;
+}
+
+.downtown, .east-bayside, .oakdale {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin: 15px 20px;
+}
+
+.downtown span, .east-bayside span, .oakdale span {
+  padding-bottom: 47px;
+}
+
+.downtown h3, .east-bayside h3, .oakdale h3 {
+  padding-bottom: 12px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  position: relative;
+  z-index: 1;
+  bottom: -1383px; /*Pushes footer down to cover up picture */
+  background-color: black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact {
+  line-height: 1.05em;
+  text-align: center;
+}
+
+.copyright {
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+
+/*#tea-month {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 3px solid red;
+}
+
+.berry-blitz {
+  width: 50px;
+  height: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid pink;
+}
+
+/*.logo {
+  margin-left: 10px;
+  height: 50px;
+  flex: 1;
+}
+
+a {
+  color: white;
+}
+
+.mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
